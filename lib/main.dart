@@ -1,6 +1,5 @@
 import 'package:flutter/material.dart';
 import 'package:zego_uikit_prebuilt_live_streaming/zego_uikit_prebuilt_live_streaming.dart';
-String appSign="62b8600262f6edee97f9b6167de4c7ba090b58e1afcefef635ac9324ec590c35";
 main(){
   runApp(const MaterialApp(
     debugShowCheckedModeBanner: false,
@@ -100,8 +99,8 @@ class StartLive extends StatelessWidget {
   Widget build(BuildContext context) {
     return  SafeArea(
         child: ZegoUIKitPrebuiltLiveStreaming(
-          appID: 712873095,
-          appSign: appSign,
+          appID: ,
+          appSign: ,
           userID: userID,
           userName: userName,
           liveID: 'test_liveID',
